@@ -1,3 +1,3 @@
-git config --global --add user.name "crupib"
-git config --global --add user.email "crupib@gmail.com"
-git config --global --add credential store
+git config --global --replace user.name "crupib"
+git config --global --replace user.email "crupib@gmail.com"
+git config --global --replace credential store
