@@ -5,3 +5,9 @@
   - copy: 
       src:  "master.gitconfig"
       dest: "~/.gitconfig"
+  - yum:
+      name: jq
+      state: latest
+  - yum:
+      name: bat
+      state: latest
